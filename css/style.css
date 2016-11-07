@@ -1458,7 +1458,7 @@ iframe {
 }
 
 .banr-head .login-sec .uou-tabs .tabs li {
-	width: 50%;
+	width: 100%;
 	margin: 0px !important;
 	float: left;
 	text-align: center;
@@ -1479,6 +1479,7 @@ iframe {
 	display: inline-block;
 	width: 100%;
 	margin: 0px;
+	text-align: center;
 	background-color: rgba(255, 255, 255, 0.86);
 }
 
@@ -1532,7 +1533,7 @@ iframe {
 	border-radius: 30px;
 	padding: 8px 30px;
 	color: #fff;
-	float: left;
+
 	font-size: 14px;
 	transition: all 0.3s;
 }
@@ -1588,7 +1589,7 @@ input[type="password"] {
 }
 
 .home-pro .services li .ser-inn {
-	padding: 75px 13%;
+	padding: 44px 13%;
 }
 
 .home-pro .services li .ser-inn h4 {
@@ -2286,7 +2287,7 @@ input[type="password"] {
 		padding: 30px 0;
 	}
 	.banr-head .text-area h1 {
-		font-size: 28px;
+		font-size: 22px;
 	}
 }
 
@@ -3741,7 +3742,19 @@ CANVAS PAGE STYLE
 	}
 	.uou-tabs .accordion-link.active {
 		color: #fff;
-		background: #0099ff !important;
+		background: #218e29 !important
+	}
+	.home-pro .services li:nth-child(2) .ser-inn{
+		padding: 22px 13%;
+	}
+	.pro-inside:nth-child(2){
+		min-height: 450px;
+	}
+	.container-fluid:nth-child(2) .pro-inside:nth-child(1){
+		min-height: 430px;
+	}
+	.uou-tabs{
+		margin: 0 0 -11px;
 	}
 	.right-top-bnr {
 		float: right;

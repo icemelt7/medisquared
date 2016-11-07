@@ -5,8 +5,9 @@ function formsubmit(e){
   var fullname = $("input[name='fullname']").val();
   var email = $("input[name='email']").val();
   var title = $("input[name='title']").val();
+  var company = $("input[name='company']").val();
 
-  if (!fullname || !email || !title){
+  if (!fullname || !email || !title || !company){
     swal({
       title: "I think you missed something",
       text: "Please fill in the name, email and your job title",
@@ -15,7 +16,7 @@ function formsubmit(e){
     });
     return false;
   }
-  writeUserData(fullname, email, title);
+  writeUserData(fullname, email, title, company);
   swal({
     title: "Thank You!",
     text: "We will inform you soon when we are ready!",

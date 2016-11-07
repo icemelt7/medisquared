@@ -3808,7 +3808,7 @@ input[type="radio"][disabled], input[type="checkbox"][disabled], input[type="rad
 /* ======================== */
 .uou-tabs {
 	position: relative;
-	margin: 0 0 24px;
+	margin: 0 0 -74px;
 }
 .uou-tabs .tabs {
 	padding-left: 0;
@@ -5914,7 +5914,8 @@ p i {
 .uou-block-1a {
 	position: relative;
 	display: block;
-	background: #f4f4f4;
+	background: #0197d4;
+	color: white;
 }
 .uou-block-1a:before, .uou-block-1a:after {
 	content: " ";
@@ -5941,7 +5942,7 @@ p i {
 	left: 0;
 	display: block;
 	font-size: 14px;
-	color: #333333;
+	color: #fff;
 	line-height: 40px;
 	visibility: visible;
 	opacity: 1;
@@ -6000,7 +6001,7 @@ p i {
 .uou-block-1a .language .toggle {
 	display: block;
 	font-size: 12px;
-	color: #333333;
+	color: #fff;
 	line-height: 40px;
 	height: 40px;
 }
@@ -14321,7 +14322,7 @@ a:hover, a:focus, a:active, a.active {
 	border-radius: 3px;
 }
 .logo {
-	width: 135px;
+	width: 172px;
 }
 .logo img {
 	max-width: 100%;

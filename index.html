@@ -62,7 +62,8 @@
   
   <div class="box-shadow-for-ui">
     <div class="uou-block-2b">
-      <div class="container"> <a href="#" class="logo"><img src="images/Logo.png" alt=""></a> <a href="#" class="mobile-sidebar-button mobile-sidebar-toggle"><span></span></a>
+      <div class="container"> <a href="#" class="logo"><img src="images/Logo.png" alt=""></a> 
+      <!-- a href="#" class="mobile-sidebar-button mobile-sidebar-toggle"><span></span></a -->
         <nav class="nav">
           <ul class="sf-menu">
             <!-- li><a href="blog.html">Latest Articles</a></li -->
@@ -86,7 +87,7 @@
             <div class="text-area">
               <div class="position-center-center col-md-10">
                 <h1> MediSquared increases connectivity, collaboration and career development.</h1>
-                <h1>Purely for verified healthcare professionals, and healthcare providers globally.</h1>
+                <h1>Exclusive platform for verified healthcare professionals, and healthcare providers globally.</h1>
                 <h6>We look forward to welcoming you to our community.</h6>
               </div>
             </div>
@@ -106,11 +107,12 @@
                 <div class="content">
                   <div id="register" class="active">
                     <form onsubmit="formsubmit(event)">
-                      <input type="text" name="fullname" placeholder="Full Name">
-                      <input type="email" name="email" placeholder="Email Address">
-                      <input type="text" name="title" placeholder="Job Title">
+                      <input type="text" name="fullname" placeholder="Full Name" required>
+                      <input type="email" name="email" placeholder="Email Address" required>
+                      <input type="text" name="title" placeholder="Job Title" required>
+                      <input type="text" name="company" placeholder="Company / Organization" required>
                       <button type="submit">Sign Up</button>
-                      <!-- div class="login-with"> <span>Or login with:</span> <a href="#."><i class="fa fa-facebook"></i></a> <a href="#."><i class="fa fa-google"></i></a> <a href="#."><i class="fa fa-linkedin"></i></a> </div -->
+                      <div class="login-with"> <span>Please note, we employ a two stage verification process, and only verifiable medical professionals are offered membership to MediSquared.</span> </div>
                     </form>
                   </div>
                   
@@ -162,17 +164,18 @@
             <h4>Get the latest news
               in your industry</h4>
             <i class="fa fa-book big"></i>
-            <p>Search, review and contribute to specific and specialised papers, as well as publish new papers utilising innovative peer review methodology.</p>
+            <p>Search, review and contribute to specific and specialised papers, as well as publish new papers utilising innovative peer review methodology.
+              Gain CME credits from programmes contributed by leading global healthcare academia.
+            </p>
           </div>
         </li>
         
         <!-- SECTION  -->
         <li class="col-md-4">
           <div class="ser-inn">
-          <i class="fa fa-share-alt"></i>
-            <h4>Share what’s up
-              with you</h4>
-            <i class="fa fa-share-alt big"></i>
+          <i class="fa fa-arrow-right"></i>
+            <h4>Further Your Career</h4>
+            <i class="fa fa-arrow-right big"></i>
             <p>Engage with organisations and employers globally. Learn more about employment opportunities and care providers, and apply directly with no middle men.</p>
           </div>
         </li>
@@ -185,7 +188,7 @@
         <div class="row">
           <div class="col-md-12">
             <h3 class="section-title">Founder Members & Partners</h3>
-            <div class="sponsors-slider">
+            <!--div class="sponsors-slider">
               <div class="item"><img src="images/sponsor_logo1.png" alt="" class="img-responsive"></div>
               <div class="item"><img src="images/sponsor_logo2.png" alt="" class="img-responsive"></div>
               <div class="item"><img src="images/sponsor_logo3.png" alt="" class="img-responsive"></div>
@@ -193,7 +196,7 @@
               <div class="item"><img src="images/sponsor_logo5.png" alt="" class="img-responsive"></div>
               <div class="item"><img src="images/sponsor_logo6.png" alt="" class="img-responsive"></div>
               <div class="item"><img src="images/sponsor_logo4.png" alt="" class="img-responsive"></div>
-            </div>
+            </div -->
           </div>
         </div>
       </div>
@@ -253,13 +256,9 @@
           
           <!-- PRO CONTENT -->
           <div class="col-md-6 pro-inside">
-            <div class="position-center-center col-md-6">
-              <h1>Interact with other
-                professionals</h1>
-              <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-                accusantium doloremque laudantium, totam rem aperiam, 
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto 
-                beatae vitae dicta sunt explicabo. </p>
+            <div class="position-center-center col-md-10">
+              <h1>Connectivity, Collaboration & Innovation</h1>
+              <p>Our global community focuses on providing the platform for improved knowledge transfer internationally. Our users are able to review, publish and contribute to thought leadership across the healthcare industry, as well as leverage off of a much wider pool of available specialists to learn from and develop. Our users can also develop CME credits via leading global academic partners. All for free.</p>
             </div>
           </div>
         </div>
@@ -271,12 +270,10 @@
           
           <!-- PRO TEXT -->
           <div class="col-md-6 pro-inside">
-            <div class="position-center-center col-md-6">
-              <h1>Recruit the best professionals</h1>
-              <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-                accusantium doloremque laudantium, totam rem aperiam, 
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto 
-                beatae vitae dicta sunt explicabo. </p>
+            <div class="position-center-center col-md-10">
+              <h1>Unique Careers Platform</h1>
+              <p> Connect with healthcare providers locally, regionally and internationally with the ability to not only apply to relevant career opportunities directly, yet also register interest in the event a suitable role may arise, or an opportunity can be created.</p>
+              <p>With no recruiters or search firms, MediSquared enables greater connectivity directly with potential employers and leading providers. Leverage your wider network and develop your profile to gain more understanding of the provider from current employees, as well as highlight your core skills and expertise. </p>
             </div>
           </div>
           
@@ -365,7 +362,7 @@
 </div>
 <!-- end .uou-block-4a -->
 
-<div class="uou-block-11a">
+<!-- div class="uou-block-11a">
   <h5 class="title">Menu</h5>
   <a href="#" class="mobile-sidebar-close">&times;</a>
   <nav class="main-nav">
@@ -385,7 +382,7 @@
     </ul>
   </nav>
   <hr>
-</div>
+</div -->
 
 <!-- Scripts --> 
 

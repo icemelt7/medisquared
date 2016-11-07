@@ -8,6 +8,7 @@ function writeUserData(name, email, title) {
   firebase.database().ref('users/' + newKey).set({
     username: name,
     email: email,
-    title: title
+    title: title,
+    company: company
   });
 }
