@@ -1,0 +1,10 @@
+.page-header.navbar{
+	height: 60px;
+	min-height: 60px;
+}
+.page-header.navbar .page-logo .logo-default{
+	margin-top: 10px;
+}
+.page-content-wrapper .page-content{
+	margin-left: auto;
+}
