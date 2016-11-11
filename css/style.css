@@ -1458,12 +1458,14 @@ iframe {
 }
 
 .banr-head .login-sec .uou-tabs .tabs li {
-	width: 100%;
+	width: 50%;
 	margin: 0px !important;
 	float: left;
 	text-align: center;
 }
-
+.banr-head .login-sec .uou-tabs .tabs li.active a{
+	color: #218e29;
+}
 .banr-head .login-sec input {
 	background: #fff;
 	border-radius: 30px;
@@ -3180,10 +3182,6 @@ input[type="password"] {
 	color: #666;
 	font-size: 14px;
 }
-
-li.active {
-	background-color: #218e29;
-}
 ::-webkit-input-placeholder {
    color: #acc1ae;
 }
@@ -3703,7 +3701,7 @@ CANVAS PAGE STYLE
 .banr-head .btn-large {
     display: inline-block;
     background: #218e29;
-    border-radius: 30px;
+    border-radius: 33px;
     padding: 8px 30px;
     color: #fff;
     font-size: 20px;
@@ -3712,7 +3710,52 @@ CANVAS PAGE STYLE
     font-weight: 600;
     transition: all 0.3s;
 }
-
+.lock-form.login{
+	padding-left: 0;
+}
+.form-login-wrapper{
+	color: #dbe2ea;
+}
+.lock-form.login .form-group:first-child{
+	margin-top: 0;
+}
+.lock-form.forget .form-group .form-control,
+.lock-form.login .form-group .form-control{
+	width: 100%;
+}
+.lock-form.forget .form-actions .btn,
+.lock-form.login .form-actions .btn{
+	width: 100px;
+}
+.lock-form.login .form-actions .rememberme{
+	margin-left: 8px;
+}
+.lock-form.login .form-actions a.forget-password{
+	color: #638cac;
+	font-size: 14px;
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+}
+.form-login-wrapper .lock-body{
+	border-bottom: 1px solid #323d4b;
+}
+.form-login-wrapper .lock-body,
+.form-forget-wrapper .lock-body{
+	padding: 30px;
+	margin:0;
+}
+.form-login-wrapper .lock-body .lock-form,
+.form-forget-wrapper .lock-body .lock-form{
+	background: none!important;
+}
+.form-forget-wrapper .lock-body .lock-form{
+	padding: 0;
+	color: #dbe2ea;
+}
+.form-forget-wrapper .lock-body .lock-form p:first-child{
+	margin-top: 0;
+}
 @media(min-width:768px) and (max-width:991px) {
 	.position-center-center {
 		width: 100%;
@@ -3852,6 +3895,24 @@ CANVAS PAGE STYLE
 	}
 	.user-profile-bnr .pull-left {
 		width: 100%;
+	}
+
+	.lock-body.login-body{
+		padding: 20px;
+	}
+	.login-options{
+		margin: 20px;
+	}
+	.form-login-wrapper .login-options .social-icons{
+		float: right;
+	}
+	.lock-form.login .form-actions .rememberme{
+		float: right;
+		margin-top: 10px;
+	}
+	.lock-form.login .form-actions a.forget-password{
+		float: none;
+		margin-top: 2px;
 	}
 }
 
