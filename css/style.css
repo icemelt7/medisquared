@@ -1539,7 +1539,6 @@ iframe {
 	font-size: 14px;
 	transition: all 0.3s;
 }
-.banr-head .btn-large:hover,
 .banr-head .login-sec button:hover {
 	background: rgba(0, 0, 0, 0.8);
 }
@@ -3696,19 +3695,6 @@ CANVAS PAGE STYLE
 	padding-top: 10px;
 	display: inline-block;
 	width: 100%;
-}
-
-.banr-head .btn-large {
-    display: inline-block;
-    background: #218e29;
-    border-radius: 33px;
-    padding: 8px 30px;
-    color: #fff;
-    font-size: 20px;
-    line-height: 50px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    transition: all 0.3s;
 }
 .lock-form.login{
 	padding-left: 0;
