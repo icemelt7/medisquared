@@ -1,6 +1,13 @@
 body{
 	background: #f5f5f5!important;
 }
+.page-header .navbar-fixed-top{
+	background: #f5f5f5;
+}
+.page-header .navbar .search .form-control{
+	background: #fff;
+	border: 1px solid #c2cad8
+}
 .page-header.navbar{
 	height: 60px;
 	min-height: 60px;
@@ -20,7 +27,7 @@ body{
 	margin-right: 30px;
 }
 .page-header .navbar .page-logo{
-	max-width: 100px;
+	max-width: 12	0px;
 	display: inline-block;
 }
 .page-lock .lock-head{
@@ -53,8 +60,15 @@ body{
 	width: auto;
 	padding: 0;
 }
-@media (min-width: 992px){
-	.page-content {
-		padding-top: 70px;
-	}
+.profile-links{
+	text-align: center;
+	padding: 0 20px 20px;
+}
+.profile-usertitle,
+.portlet-body{
+	color: #6c7b88;
+}
+.profile-list-div h4{
+	font-size: 15px;
+	font-weight: bold;
 }
