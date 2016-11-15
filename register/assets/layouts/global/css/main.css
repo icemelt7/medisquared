@@ -72,3 +72,30 @@ body{
 	font-size: 15px;
 	font-weight: bold;
 }
+.page-header .navbar .navbar-nav>li>a{
+	background: #218e29;
+	color: #fff;
+}
+.page-content-row.job-details .page-content-col{
+	padding-left: 0;
+}
+.job-info{
+	display: table;
+	width: 100%;
+	padding: 0 20px 20px;
+}
+.job-info > div{
+	color: #6c7b88;
+	font-size: 12px;
+	display: table-cell;
+}
+.job-info > div span{
+	margin-right: 5px;
+}
+.job-info > div:last-child{
+	text-align: right;
+}
+.job-actions{
+	text-align: center;
+	padding: 0 20px 20px;
+}
