@@ -1,6 +1,50 @@
 body{
 	background: #f5f5f5!important;
 }
+.has-success .checkbox, .has-success .checkbox-inline, .has-success .control-label, .has-success .form-control-feedback, .has-success .help-block, .has-success .radio, .has-success .radio-inline, .has-success.checkbox label, .has-success.checkbox-inline label, .has-success.radio label, .has-success.radio-inline label,
+body .profile-usertitle-job,
+body .profile-desc-link a,
+body a{
+	color: #0197d4;
+}
+body .font-blue-madison{
+	color: #0197d4!important;
+}
+body .form-wizard .steps>li.done>a.step .number{
+	background-color: #398942;
+}
+body .has-success .form-control{
+	border-color: #0197d4;
+}
+body .page-content-row .page-sidebar .navbar-nav li.active>a,
+body .page-content-row .page-sidebar .navbar-nav li>a:hover,
+body .progress-bar-success,
+body .form-wizard .steps>li.active>a.step .number{
+	background-color: #0197d4;
+}
+body .btn.btn-outline.green{
+	border-color: #0197d4;
+	color: #0197d4;
+}
+body .btn.btn-outline.green:hover,
+body .btn.btn-outline.green:focus{
+	background-color: #0197d4;
+	border-color: #0197d4;
+	color: #fff;
+}
+body .btn.green:not(.btn-outline),
+body .badge-success{
+	background-color:#218e29;
+}
+body .btn.green:not(.btn-outline){
+	border-color: #218e29;
+}
+body .page-content{
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	background: none;
+}
 .page-header .navbar-fixed-top{
 	background: #f5f5f5;
 }
@@ -98,4 +142,16 @@ body{
 .job-actions{
 	text-align: center;
 	padding: 0 20px 20px;
+}
+@media (min-width: 991px){
+	.mega-menu .dropdown-menu-fw {
+	    left: 14px;
+	    right: 14px;
+	}
+}
+
+@media (min-width: 992px){
+	.page-no-padding .page-content {
+		padding-top: 55px;
+	}
 }
