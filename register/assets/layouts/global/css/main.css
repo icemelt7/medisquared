@@ -74,6 +74,10 @@ body .page-content{
 	max-width: 12	0px;
 	display: inline-block;
 }
+.page-header .navbar .navbar-nav>li>a{
+	padding: 15px 20px;
+	font-size: 16px;
+}
 .page-lock .lock-head{
 	background: #3598dc;
 	color: #fff;
@@ -143,6 +147,19 @@ body .page-content{
 	text-align: center;
 	padding: 0 20px 20px;
 }
+body .form-login-wrapper .lock-body{
+	border-bottom: 1px solid #f5f5f5;
+}
+.lock-bottom{
+	background-color: #e5e5e5;
+}
+.lock-form .form-group .form-control{
+	background: #f5f5f5;
+}
+.lock-form .form-group .form-control:focus{
+	background: #f0f0f0;
+}
+
 @media (min-width: 991px){
 	.mega-menu .dropdown-menu-fw {
 	    left: 14px;
